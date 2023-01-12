@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/12608612/pexels-photo-12608612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.png");
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex: 1;
+    border: 2px whitesmoke solid;
+    padding: 48px;
+    margin: 350px;
+    border-radius: 8px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#btn{
+    font-size: 24px;
+    margin: 20px;
+    background-color: rgb(17, 202, 17);
+}
