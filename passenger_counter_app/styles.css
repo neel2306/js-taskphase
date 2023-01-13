@@ -5,20 +5,66 @@
 
 body{
     background-image: url("https://images.pexels.com/photos/12608612/pexels-photo-12608612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.png");
+    
+}
+
+.text-area{
     display: flex;
     justify-content: center;
     color: white;
     flex: 1;
-    border: 2px whitesmoke solid;
+    border: 6px #FD5B78 solid;
     padding: 48px;
-    margin: 350px;
+    margin: 350px 350px 20px 350px;
     border-radius: 8px;
     font-size: 48px;
     font-weight: bold;
 }
 
-#btn{
-    font-size: 24px;
+.btns{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.btns #increment-btn{
+    font-size: 32px;
     margin: 20px;
-    background-color: rgb(17, 202, 17);
+    background-color: #50BFE6;
+    color: whitesmoke;
+    border-radius: 4px;
+    border: none;
+}
+
+.btns #save-btn{
+    font-size: 32px;
+    margin: 20px;
+    background-color: #66FF66;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.btns #reset-btn{
+    font-size: 32px;
+    margin: 20px;
+    background-color:	#FF3855;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.save-area{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px 350px 0px 350px;
+    border: 4px #FF00CC solid;
+    border-radius: 8px;
+}
+
+.save-area #save-ele{
+    font-size: 36px;
+    font-style: italic;
 }

@@ -8,9 +8,18 @@
     </head>
 
     <body>
-        <h2 id="text-area">People Entered:</h2>
-        <h2 id="count-ele">0</h2>
-        <button id="btn" onclick="increment()">INCREMENT</button>
+        <div class="text-area">
+            <p id="text-title">People Entered:</p>
+            <p id="count-ele">0</p>
+        </div>
+        <div class="btns">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <div class="save-area">
+            <p id="save-ele">Previous Entries: </p>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>
